@@ -1,0 +1,70 @@
+// Atividade 1 LLP Telemática
+// Alison de Almeida Arruda 
+// Imprimir a diagonal de uma matriz quadrada e a soma de 2 matrizes
+
+
+#include <stdio.h>
+
+int main() 
+{
+	
+   int i;
+   int j;
+   int matriz1[3][3]={{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+   int matriz2[3][3]={{15, 20, 25}, {30, 35, 40}, {45, 50, 55}};
+   int matriz_soma[3][3];
+   
+   printf("\n Matriz 1\n");
+    for(i = 0; i < 3; i++)
+	 {
+         for(j = 0;  j < 3; j++)
+		  {
+              printf("%d ", matriz1[i][j]);
+          }
+         printf("\n");
+     }
+     
+    printf("\n Matriz 2\n");
+    for(i = 0; i < 3; i++)
+     {
+         for(j = 0; j < 3; j++)
+		  {
+              printf("%d ", matriz2[i][j]);
+          }
+         printf("\n");
+     }
+ printf("\n A diagonal da matriz 1 é: \n");
+   for(i=0; i < 3; i++)
+	 {
+        for(j= 0; j < 3; j++)
+	     {
+         matriz_soma[i][j] = matriz1[i][j] + matriz2[i][j]; 
+   if (i==j){
+    printf("%d\n", matriz1[i][j]);
+}
+       }
+     }
+  printf("\n A diagonal da matriz 2 é: \n");
+   for(i=0; i < 3; i++)
+	 {
+        for(j= 0; j < 3; j++)
+	     {
+   if (i==j){
+    printf("%d\n", matriz2[i][j]);
+}
+       }
+     }
+
+    printf("\n A Soma das Matrizes 1 e 2 é: \n");
+    for(i = 0; i < 3; i++)
+	 {
+         for(j = 0; j < 3; j++)
+		  {
+              printf("%d ", matriz_soma[i][j]);
+          }
+         printf("\n");
+     }
+    printf("\n\n");
+
+    return 0;
+}
