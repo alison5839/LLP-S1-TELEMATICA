@@ -1,3 +1,7 @@
+// Avaliacao 2 LLP Telemática
+// Alison de Almeida Arruda 
+// Usar passagem por referência para calcular a matriz soma de 2 matrizes quadradas
+
 #include <stdio.h>
 
 void soma_matriz(int (*A)[3],(*B)[3],(*C)[3], int N) {
