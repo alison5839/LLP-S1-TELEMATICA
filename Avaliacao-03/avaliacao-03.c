@@ -33,7 +33,7 @@ int main() {
 
     fclose(FPRT);
 
-    printf("Dados gravados com sucesso em 'funcionario.txt'.\n");
+    printf("Dados gravados com sucesso em 'funcionarios.txt'.\n");
 
     return 0;
 }
