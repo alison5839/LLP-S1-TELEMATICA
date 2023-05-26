@@ -1,3 +1,7 @@
+// Avaliacao 3 LLP Telemática
+// Alison de Almeida Arruda 
+// Criar uma estrutura, receber pelo teclado seus dados e gravar em um arquivo essa estrutura
+
 #include <stdio.h>
 
 int main() {
