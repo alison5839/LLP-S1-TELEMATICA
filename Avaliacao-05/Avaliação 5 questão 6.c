@@ -1,3 +1,7 @@
+// Avaliacao 3 LLP Telemática
+// Alison de Almeida Arruda
+// Faça um programa que receba do usuario um arquivo texto e mostre na tela quantas vezes cada letra do alfabeto aparece dentro do arquivo
+
 #include <stdio.h>
 #include <ctype.h>
 
