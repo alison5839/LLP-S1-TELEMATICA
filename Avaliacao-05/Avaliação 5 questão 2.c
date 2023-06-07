@@ -1,3 +1,7 @@
+// Avaliacao 3 LLP Telemática
+// Alison de Almeida Arruda 
+// Faça um programa que receba do usuario um arquivo texto e mostre na tela quantas linhas esse arquivo possui
+
 #include <stdio.h>
 
 int main() {
