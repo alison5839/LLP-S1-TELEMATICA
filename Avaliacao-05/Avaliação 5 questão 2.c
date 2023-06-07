@@ -27,7 +27,7 @@ int main() {
         }
     }
 
-    if (caractere != '\n' && cont_linhas >= 0) {
+    if (caractere != '\n' && cont_linhas > 0) {
         cont_linhas++;
     }
 
