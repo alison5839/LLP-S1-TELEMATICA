@@ -1,3 +1,11 @@
+// Avaliacao 3 LLP Telemática
+// Alison de Almeida Arruda 
+// Escreva um programa que
+// a) Crie/abra um arquivo texto com nome "arq.txt"
+// b) Permita que o usuário grave diversos carcateres nesse arquivo, até que o usuário entre com o caractere '0'
+// c) Feche o arquivo 
+// Depois abrir e ler o arquivo, caractere por caractere, e escrever na tela todos os caracteres armazenados
+
 #include <stdio.h>
 
 int main() {
