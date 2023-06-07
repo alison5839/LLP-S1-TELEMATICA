@@ -1,3 +1,7 @@
+// Avaliacao 3 LLP Telemática
+// Alison de Almeida Arruda
+// Faça um programa que receba do usuario um arquivo texto e mostre na tela quantas letras são vogais e quantas são consoantes
+
 #include <stdio.h>
 #include <ctype.h>
 
