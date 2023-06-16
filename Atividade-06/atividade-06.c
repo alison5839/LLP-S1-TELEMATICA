@@ -1,4 +1,4 @@
-// Atividade 1 LLP Telemática
+// Atividade 6 LLP Telemática
 // Alison de Almeida Arruda 
 // Usando alocação dinâmica de memória criar três matrizes A, B e C. Inicializar B e C, onde a matriz A = matriz B + matriz C. Mostrar as três matrizes.
 
