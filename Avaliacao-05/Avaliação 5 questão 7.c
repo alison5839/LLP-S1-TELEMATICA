@@ -1,4 +1,4 @@
-// Avaliacao 3 LLP Telemática
+// Avaliacao 5 LLP Telemática
 // Alison de Almeida Arruda
 // Faça um programa que receba do usuario um arquivo texto. Crie outro arquivo texto contendo o texto do arquivo de entrada, mas com as vogais substituídas por '*'
 
