@@ -1,3 +1,7 @@
+// Atividade 1 LLP Telemática
+// Alison de Almeida Arruda 
+// Usando alocação dinâmica de memória criar três matrizes A, B e C. Inicializar B e C, onde a matriz A = matriz B + matriz C. Mostrar as três matrizes.
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -26,34 +30,25 @@ int main() {
         C[i] = (int *)malloc(coluna * sizeof(int));
     }
 
-    printf("Entre com os valores da matriz A:\n");
-    for (int i = 0; i < linha; i++) {
-        for (int j = 0; j < coluna; j++) {
-            scanf("%d", &A[i][j]);
-        }
-    }
-
-     printf("Entre com os valores da matriz B:\n");
+    printf("Entre com os valores da matriz B:\n");
     for (int i = 0; i < linha; i++) {
         for (int j = 0; j < coluna; j++) {
             scanf("%d", &B[i][j]);
+        }
+    }
+
+     printf("Entre com os valores da matriz C:\n");
+    for (int i = 0; i < linha; i++) {
+        for (int j = 0; j < coluna; j++) {
+            scanf("%d", &C[i][j]);
         }
     } printf("\n");
 
      for (int i = 0; i < linha; i++) {
         for (int j = 0; j < coluna; j++) {
-            C[i][j]= (A[i][j]+ B[i][j]);
+            A[i][j]= (B[i][j]+ C[i][j]);
         }
     }
-
-    printf("Matriz A:\n");
-    for (int i = 0; i < linha; i++) {
-        for (int j = 0; j < coluna; j++) {
-            printf("%d ", A[i][j]);
-        }
-        printf("\n");
-    }
-    printf("\n");
 
     printf("Matriz B:\n");
     for (int i = 0; i < linha; i++) {
@@ -68,6 +63,15 @@ int main() {
     for (int i = 0; i < linha; i++) {
         for (int j = 0; j < coluna; j++) {
             printf("%d ", C[i][j]);
+        }
+        printf("\n");
+    }
+    printf("\n");
+
+    printf("Matriz A:\n");
+    for (int i = 0; i < linha; i++) {
+        for (int j = 0; j < coluna; j++) {
+            printf("%d ", A[i][j]);
         }
         printf("\n");
     }
